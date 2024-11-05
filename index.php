@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>Vợt Tốt, Trận Hay – DK Cùng Bạn Bước Đến Chiến Thắng</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,8 @@
 <!-- Navigation Bar -->
 <nav>
     <div class="nav-container">
-        <a href="#" class="logo">Company Logo</a>
+        <a href="index.php" class="logo">
+            <img src="image/logo.png" alt="Logo"></a>
         <div class="nav-links">
             <a href="#about">About</a>
             <a href="#features">Features</a>
