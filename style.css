@@ -1,0 +1,267 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo styling */
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* Navigation links and button */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.cta-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 8px;
+}
+
+/* Clients Section */
+.clients {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.clients h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.client-logos img {
+    max-width: 100px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.client-logos img:hover {
+    opacity: 1;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pricing-card h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 1.8em;
+    color: #007BFF;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Newsletter Section */
+.newsletter {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.newsletter h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #bbb;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .pricing-cards {
+        flex-direction: column;
+    }
+
+    .nav-container ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cta-button {
+        margin-top: 10px;
+    }
+}
