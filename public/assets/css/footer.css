@@ -1,0 +1,87 @@
+/* Footer General Styles */
+footer {
+    background-color: #333;
+    color: #f5f5f5;
+    padding-top: 40px;
+}
+
+footer h5.title-menu {
+    color: #e95211;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p, footer a {
+    color: #f5f5f5;
+    font-size: 14px;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e95211;
+    text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-footer a {
+    margin-right: 10px;
+}
+
+.social-footer a svg {
+    fill: #f5f5f5;
+    transition: fill 0.3s ease;
+}
+
+.social-footer a:hover svg {
+    fill: #e95211;
+}
+
+/* Policy and Guide Section */
+.footer-click h5.title-menu {
+    cursor: pointer;
+}
+
+.footer-click ul.list-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-click ul.list-menu li a {
+    color: #f5f5f5;
+    transition: color 0.3s ease;
+}
+
+.footer-click ul.list-menu li a:hover {
+    color: #e95211;
+}
+
+/* Copyright and Back to Top Button */
+.bg-footer-bottom {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 13px;
+    color: #bbb;
+}
+
+.bg-footer-bottom .backtop {
+    color: #e95211;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.bg-footer-bottom .backtop:hover {
+    color: #f5f5f5;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+    .footer-click ul.list-menu {
+        display: none;
+    }
+    
+    .footer-click h5.clicked + ul.list-menu {
+        display: block;
+    }
+}

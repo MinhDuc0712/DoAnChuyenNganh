@@ -1,0 +1,62 @@
+.promo-box {
+<<<<<<< HEAD
+  margin: 20px 0;
+}
+
+.promo-item {
+  text-align: center;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+  padding: 15px;
+  min-height: 100%;
+}
+
+.promo-item:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon img {
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 14px;
+  color: #333;
+}
+
+.info span {
+  font-weight: bold;
+  color: #e95211;
+}
+=======
+    margin: 20px 0;
+}
+
+.promo-item {
+    text-align: center;
+    padding: 15px;  
+    border: 1px solid #e0e0e0;  
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.promo-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  
+}
+
+.icon img {
+    margin-bottom: 10px;  
+}
+
+.info {
+    font-size: 14px;
+    color: #333; 
+}
+
+.info span {
+    font-weight: bold; 
+    color: #E95211;  
+}
+>>>>>>> adb3b98afdb52428633c7c8fa29ee502c795bf67
