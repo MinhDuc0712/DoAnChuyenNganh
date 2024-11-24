@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>HOME</title>
+    <title>HOME - <?=APP_NAME?></title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
@@ -29,7 +29,7 @@
         <link href="<?=ROOT?>/assets/css/headers.css" rel="stylesheet">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="home" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+                <a href="pages" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
                     <img class="bi me-2" role="img" src="<?=ROOT?>/assets/image/logo.jpg" width="60" height="40"
                         style="object-fit: cover;">
                 </a>

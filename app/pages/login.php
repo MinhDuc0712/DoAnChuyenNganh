@@ -49,7 +49,7 @@
                       if ($user['role'] == 'admin') {
                           header("Location: admin");
                       } else {
-                          header("Location: home");
+                          header("Location: pages");
                       }
                       exit();
                   } else {

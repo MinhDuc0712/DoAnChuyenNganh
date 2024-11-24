@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .breadcrumb {
   background-color: #f9f9f9;
   color: #333;
@@ -38,36 +37,12 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-=======
-.product-card {
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
-  overflow: hidden;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 20px;
-}
-.product-card img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-}
-.product-card h5 {
-  margin: 15px 0 10px;
-  font-size: 1.25rem;
-}
-.product-card p {
-  margin: 0;
-  color: #6c757d;
-}
->>>>>>> adb3b98afdb52428633c7c8fa29ee502c795bf67
 .product-card:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px);
   transition: all 0.3s ease;
 }
 .product-card .price {
-<<<<<<< HEAD
   font-size: 16px;
   color: #e95211;
   margin-top: 10px;
@@ -85,27 +60,4 @@
 
 .link-body-emphasis {
   text-decoration: none;
-=======
-  font-size: 18px;
-  color: #e95211;
-  font-weight: bold;
-}
-
-.product-card {
-  border: 1px solid #e0e0e0; /* Viền cho sản phẩm */
-  border-radius: 8px; /* Bo góc */
-  padding: 15px; /* Padding cho sản phẩm */
-  text-align: center; /* Căn giữa nội dung */
-  transition: box-shadow 0.3s; /* Hiệu ứng chuyển tiếp cho bóng */
-}
-
-.product-card:hover {
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng khi hover */
-}
-
-.price {
-  font-size: 18px; /* Kích thước chữ cho giá */
-  color: #e95211; /* Màu chữ cho giá */
-  font-weight: bold; /* Đoẫn chữ cho giá */
->>>>>>> adb3b98afdb52428633c7c8fa29ee502c795bf67
 }

@@ -5,11 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-<<<<<<< HEAD
     <title>Đăng kí - <?=APP_NAME?></title>
-=======
-    <title>Đăng kí</title>
->>>>>>> adb3b98afdb52428633c7c8fa29ee502c795bf67
 
 <link href="<?=ROOT?>/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
